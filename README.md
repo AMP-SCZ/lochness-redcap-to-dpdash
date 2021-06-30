@@ -111,8 +111,8 @@ added to the list `date_vars` in `lib/parse_redcap.py`.
 
 ### Output dates
 
-Assessments will be not be processed into output if their date is already covered in 
-existing dayXtoY CSV files for that particular assessment. This is to prevent overwriting
+Assessments will not be processed into output if their date is already covered in
+existing `*day{X}to{Y}.csv` files for that particular assessment. This is to prevent overwriting
 existing data.
 
 If the date of the assessment is not in the existing range, output CSVs will be created 
