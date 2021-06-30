@@ -27,6 +27,9 @@ def main():
     if outdir[-1] != '/':
         outdir = outdir + '/'
 
+    if not os.path.exists(outdir):
+        os.makedirs(outdir)
+
     level = logging.INFO
     if args.verbose:
         level = logging.DEBUG
