@@ -54,7 +54,7 @@ python convert.py \
 
 Where `/RED-PHOENIX/PROTECTED/**/*.json` matches all JSON files to be parsed.
 
-You may also use a single `*` glob expression, such as `/RED-PHOENIX/PROTECTED/STUDY_ID/SUBJECT_ID/DATA_TYPE/*.json`, or a path to a single file.
+You may also use a single `*` glob expression, such as `/RED-PHOENIX/PROTECTED/STUDY_ID/raw/surveys/SUBJECT_ID/*.json`, or a path to a single file.
 
 <details>
 <summary>Details about the pattern /**/</summary>
