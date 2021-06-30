@@ -48,7 +48,7 @@ Example usage:
 ```sh
 python convert.py \
 --dict /dict.csv \
---outdir /RED-PHOENIX/GENERAL \
+--outdir /RED-PHOENIX/PROTECTED \
 "/RED-PHOENIX/PROTECTED/**/*.json"
 ```
 
