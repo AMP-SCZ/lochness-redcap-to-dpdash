@@ -3,16 +3,15 @@
 Python scripts to convert REDCap survey JSON files produced by lochness into
 DPdash/DPimport-ready CSVs
 
-- [lochness REDCap to DPdash](#lochness-redcap-to-dpdash)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Input](#input)
-    - [Output](#output)
-  - [Additional notes](#additional-notes)
-    - [De-identification](#de-identification)
-    - [Date variables](#date-variables)
-    - [Output dates](#output-dates)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Input](#input)
+  - [Output](#output)
+- [Additional notes](#additional-notes)
+  - [De-identification](#de-identification)
+  - [Date variables](#date-variables)
+  - [Output dates](#output-dates)
 
 
 ## Requirements
