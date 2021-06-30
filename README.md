@@ -10,6 +10,7 @@ DPdash/DPimport-ready CSVs
     - [Input](#input)
     - [Output](#output)
   - [Additional notes](#additional-notes)
+    - [De-identification](#de-identification)
     - [Date variables](#date-variables)
     - [Output dates](#output-dates)
 
@@ -93,6 +94,11 @@ with the following structure:
 ```
 
 ## Additional notes
+
+### De-identification
+
+This script does not do any de-identification or anonymization of data. These tasks should
+be done **before** this script is used.
 
 ### Date variables
 
