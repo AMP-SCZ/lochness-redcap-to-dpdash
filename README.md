@@ -48,13 +48,13 @@ Example usage:
 ```sh
 python convert.py \
 --dict /dict.csv \
---outdir /RED-PHOENIX/PROTECTED \
-"/RED-PHOENIX/PROTECTED/**/*.json"
+--outdir /RED-PHOENIX/GENERAL \
+"/RED-PHOENIX/GENERAL/**/*.json"
 ```
 
-Where `/RED-PHOENIX/PROTECTED/**/*.json` matches all JSON files to be parsed.
+Where `/RED-PHOENIX/GENERAL/**/*.json` matches all JSON files to be parsed.
 
-You may also use a single `*` glob expression, such as `/RED-PHOENIX/PROTECTED/STUDY_ID/raw/surveys/SUBJECT_ID/*.json`, or a path to a single file.
+You may also use a single `*` glob expression, such as `/RED-PHOENIX/GENERAL/STUDY_ID/raw/surveys/SUBJECT_ID/*.json`, or a path to a single file.
 
 <details>
 <summary>Details about the pattern /**/</summary>
