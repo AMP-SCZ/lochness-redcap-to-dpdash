@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import argparse
 import glob
 import json
@@ -12,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Convert REDCap-via-lochness JSON into DPdash formatted data.')
+        description='Convert REDCap-via-lochness JSON into the format DPdash expects')
     parser.add_argument('-d', '--dict', required=True,
                         help='path to the data dictionary CSV file from REDCap')
     parser.add_argument('-o', '--outdir', required=True,

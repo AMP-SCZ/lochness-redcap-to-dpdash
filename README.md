@@ -54,7 +54,7 @@ python convert.py \
 
 Where `/RED-PHOENIX/PROTECTED/**/*.json` matches all JSON files to be parsed.
 
-You may also use a single `*` glob expression, such as `/RED-PHOENIX/PROTECTED/STUDY_ID/SUBJECT_ID/DATA_TYPE/*.json`, or a path to a single file.
+You may also use a single `*` glob expression, such as `/RED-PHOENIX/PROTECTED/STUDY_ID/raw/surveys/SUBJECT_ID/*.json`, or a path to a single file.
 
 <details>
 <summary>Details about the pattern /**/</summary>
@@ -111,8 +111,8 @@ added to the list `date_vars` in `lib/parse_redcap.py`.
 
 ### Output dates
 
-Assessments will be not be processed into output if their date is already covered in 
-existing dayXtoY CSV files for that particular assessment. This is to prevent overwriting
+Assessments will not be processed into output if their date is already covered in
+existing `*day{X}to{Y}.csv` files for that particular assessment. This is to prevent overwriting
 existing data.
 
 If the date of the assessment is not in the existing range, output CSVs will be created 
@@ -120,5 +120,5 @@ with the range starting from the end of the previous day range (if existing) and
 with the date of the assessment. The existing files will not be modified.
 
 For example, in the [above directory tree](#output), `assessment` was conducted for this
-subject on days 121 and 165 since consent, so the first output file starts at day 1 and
-the second output file starts at day 122. Moreover, days 1-120 and 122-164 contain no data.
+subject on 121<sup>st</sup> and 165<sup>th</sup> days since consent. So the first output file starts at day 1 and
+the second output file starts at day 122. Moreover, rows 1-120 and 122-164 (corresponding to days) do not contain any data.
