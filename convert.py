@@ -83,7 +83,6 @@ def main():
                     loaded_json['chric_consent_date'])
             parse_redcap.to_csv(loaded_json, subject, study,
                                 consent_date, subj_dir, assessments, logger)
-            print('hi')
         else:
             logger.debug('json is neither array nor object: %s', path)
             continue
