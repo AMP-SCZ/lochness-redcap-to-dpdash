@@ -120,5 +120,5 @@ with the range starting from the end of the previous day range (if existing) and
 with the date of the assessment. The existing files will not be modified.
 
 For example, in the [above directory tree](#output), `assessment` was conducted for this
-subject on 121<sup>th</sup> and 165<sup>th</sup> days since consent. So the first output file starts at day 1 and
+subject on 121<sup>st</sup> and 165<sup>th</sup> days since consent. So the first output file starts at day 1 and
 the second output file starts at day 122. Moreover, rows 1-120 and 122-164 (corresponding to days) do not contain any data.
